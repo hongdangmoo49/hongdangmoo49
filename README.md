@@ -1,9 +1,4 @@
-<h1 align="center"> ✨신입 백엔드 개발자 신승호입니다.✨
-  <h3 ></h3>
-  <p align="center"> - 유지보수가 쉬운 코드, 중복 없는 코드를 지향합니다.</p>
-  <p align="center"> - 단기간 몰입하고 성장하는 것을 즐깁니다.</p>
-  <p align="center"> - 함께 성장의 가치를 존중합니다.</p>
-  
+
 <div align=center>
 	<h3>💻 Tech Stack </h3>
 </div>
