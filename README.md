@@ -1,37 +1,43 @@
+I build developer tools around AI agents, shared context, and long-term project memory.
 
-<div align=center>
-	<h3>💻 Tech Stack </h3>
-</div>
-  
-  <div align="center">
-	  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Conda-Forge&logoColor=white" />
-	  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white" />
-    <img src="https://img.shields.io/badge/Spring JPA-6DB33F?style=flat&logo=Spring&logoColor=white" />
-	<br>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
-    <img src="https://img.shields.io/badge/amazonaws-232F3E?style=flat&logo=amazonaws&logoColor=white"> 
-    <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white">
+My current focus is making AI coding workflows less isolated and less forgetful: agents should be able to collaborate, remember decisions, recover context, and work inside real development processes.
 
-</div>
-<div align=center>
-	<h3>📒 Blog</h3>
-</div>
-<div align=center>
-   <a href="https://velog.io/@ssh0611" target="_blank"><img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=My%20blog&style=style=flat&color=BC4E99" alt="Star Badge"/>
-  </a>
-  
-  
-<!--
-**hongdangmoo49/hongdangmoo49** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Featured Projects
 
-Here are some ideas to get you started:
+### [Trinity](https://github.com/hongdangmoo49/Trinity)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Three minds, one context.**
+
+Trinity is a multi-agent AI orchestrator that brings Claude Code, Codex, and Antigravity CLI into one collaborative workflow.  
+Instead of relying on a single AI agent, Trinity coordinates structured deliberation between specialized agents:
+
+- **Claude** as the architect
+- **Codex** as the implementer
+- **Antigravity** as the reviewer
+
+It supports shared context, round-based discussion, consensus building, persisted workflow state, task distribution, peer review, retry flows, and an interactive Textual-based TUI.
+
+The goal is simple: make AI-assisted development more reliable by combining multiple perspectives before execution.
+
+### [oh-my-obsidian](https://github.com/hongdangmoo49/oh-my-obsidian)
+
+**A second brain for your AI.**
+
+oh-my-obsidian connects AI coding agents with an Obsidian vault so they can remember project decisions across sessions.  
+It helps Claude Code and Codex workflows preserve context through guided setup, recall, session saving, vault management, and project-local memory hooks.
+
+Key ideas behind the project:
+
+- reduce repeated context-pasting
+- save architectural decisions as Markdown
+- retrieve past work with recall
+- organize project knowledge as the codebase evolves
+- make AI agents work with a persistent project memory
+
+## What I Like Building
+
+- AI agent orchestration
+- developer productivity tools
+- context-aware coding workflows
+- knowledge management systems
+- CLI and TUI-based automation
